@@ -1,0 +1,45 @@
+form {
+  background: rgba(160, 160, 160, 0.5);
+  border-radius: 6px;
+  margin: 5px;
+  padding: 5px;
+}
+form.inline {
+  background: none;
+  display: inline;
+  padding: 0;
+}
+  
+fieldset {
+  border: 1px solid white;
+  border-radius: 0 0 6px 6px;
+  padding: 5px;
+  white-space: pre-line;
+}
+
+label[for] {
+  display: inline-block;
+  margin-right: 0.5em
+  width: 7em;
+}
+
+input:not([type="file"]), button {
+  background-color: white;
+  border: 1px solid rgba(127, 127, 127, 0.5);
+  border-radius: 3px;
+  margin: 3px;
+  max-width: 12em;
+}
+
+/*
+input[type="text"], input[type="password"], input[type="url"] {
+  width: 12em;
+}
+*/
+input[type="reset"] {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+textarea {
+  width: 100%;
+}

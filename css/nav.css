@@ -1,0 +1,46 @@
+nav {
+  align-items: center;
+  background: lightgrey;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 5px;
+}
+nav:empty { display: none; }
+
+nav > #self {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  color: black;
+  display: flex;
+  flex-flow: row wrap;
+  height: 40px;
+  justify-content: space-around;
+  padding: 4px;
+  text-decoration: none;
+  width: 250px;
+}
+
+nav > #self > .avatar {
+  height: 32px;
+  margin-right: 5px;
+}
+
+nav > #self > .pseudo {
+  flex: 1 0 auto;
+  margin: 0;
+}
+
+nav > #self > .posts, nav > #self > .points {
+  margin: 0;
+  flex: 1 0 auto;
+}
+
+nav > .x {
+  color: red;
+  font-size: 2em;
+  text-decoration: none;
+}
